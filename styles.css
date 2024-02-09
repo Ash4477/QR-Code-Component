@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 376px) {
+    body{
+        background-color: orange;
+    }
+}
+
 :root{
     --main-white: hsl(0, 0%, 100%);
     --main-light-gray: hsl(212, 45%, 89%);
@@ -18,8 +24,8 @@ body{
 #wrapper{
     background-color: var(--main-white);
     width: 220px;
-    height: 400px;
-    margin:auto;
+    height: 350px;
+    margin: 70px auto 0 auto;
     border-radius: 5%;
     text-align: center;
 }
@@ -30,9 +36,17 @@ body{
     padding-top: 10px;
 }
 
-p{
+h2{
+    color: var(--main-dark-blue);
     font-size: 15px;
+    padding: 0 20px;
+}
+
+p{
+    color: var(--main-grayish-blue);
+    font-size: 10px;
     font-weight: 400;
+    padding: 0 20px;
 }
 
 
@@ -40,6 +54,9 @@ p{
 
 
 .attribution { 
+    position: relative;
+    bottom: 0;
+    margin: 20px 35%;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
