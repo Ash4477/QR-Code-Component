@@ -1,3 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-white: hsl(0, 0%, 100%);
+    --main-light-gray: hsl(212, 45%, 89%);
+    --main-grayish-blue: hsl(220, 15%, 55%);
+    --main-dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    background-color: var(--main-light-gray);
+    font-family: Outfit, sans-serif;
+
+}
+
+#wrapper{
+    background-color: var(--main-white);
+    width: 220px;
+    height: 400px;
+    margin:auto;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#qr-img{
+    width: 200px;
+    border-radius: 8%;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
