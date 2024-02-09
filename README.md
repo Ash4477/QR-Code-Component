@@ -11,6 +11,7 @@ Screenshot: ./images/screenshot.png
 ### Links
 
 - Solution URL: https://github.com/Ash4477/QR-Code-Component
+- Live Link URL: https://ash4477.github.io/QR-Code-Component/
 
 ### Built with
 
